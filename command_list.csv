@@ -1,0 +1,26 @@
+    1  [200~Task 1. Робота з .gitignore
+    2  [200~git clone https://github.com/your-username/HW_10.git
+    3  git clone https://github.com/vladuald/HW_10.git
+    4  cd HW_10
+    5  touch text_ignore.txt
+    6  nano .gitignore
+    7  git status
+    8  git add
+    9  git add .
+   10  git status
+   11  git commit -m "Add text_ignore.txt to .gitignore"
+   12  touch main_test.txt
+   13  git add .
+   14  git commit -m "Create empty main_test.txt file"
+   15  git checkout -b develop
+   16  touch develop_test.txt
+   17  git add .
+   18  git commit -m "Create empty develop_test.txt file"
+   19  nano develop_test.txt
+   20  git status
+   21  git add .
+   22  git commit -m "Update develop_test.txt with changes"
+   23  git checkout main
+   24  git merge develop
+   25  git log --oneline
+   26  history > command_list.csv
